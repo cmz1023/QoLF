@@ -1,7 +1,7 @@
 #include "qolf.h"
 //
 // Created by cmz1023 on 10/31/2019.
-// quality of life functions  AAAAAAAAAAAAAA
+// quality of life functions 
     std::string qolf::stringReverser(std::string s1) {
         std::string s2;
         while(s1.length() > 0){
