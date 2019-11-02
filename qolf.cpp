@@ -1,7 +1,7 @@
 #include "qolf.h"
 //
 // Created by cmz1023 on 10/31/2019.
-// quality of life functions
+// quality of life functions  AAAAAAAAAAAAAA
     std::string qolf::stringReverser(std::string s1) {
         std::string s2;
         while(s1.length() > 0){
@@ -29,7 +29,7 @@ std::vector<std::string> qolf::splitString(std::string s1){
     return newVec;
 }
 
-std::vector<int> splitByChar(char c, std::string s){
+std::vector<int> qolf::splitByChar(char c, std::string s){
     std::vector<int> indexes;
     for (int i = 0; i < s.length(); i++){
         if (s.at(i) == c){

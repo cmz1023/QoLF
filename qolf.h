@@ -22,7 +22,6 @@ public:
         }
         return newVec;
     }
-    
 };
 
 #endif //QOL_QOL_H
